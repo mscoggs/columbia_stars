@@ -19,7 +19,7 @@ body {
  */
 a {
   font-weight: normal;
-  text-decoration: none; 
+  text-decoration: none;
   color:#EF6D3D;
 }
 a:focus {
@@ -58,6 +58,11 @@ h6 { font-size: 1.4rem; line-height: 1.6;  letter-spacing: 0; }
 p {
   margin: 0 auto 1.5em auto; /* bottom margin for paragraphs */
 }
+
+.half {
+  width:50%;
+  display: table-cell;
+}
 p + p {
 
 }
@@ -83,7 +88,7 @@ blockquote {
   font-size:1.8rem;
 }
 blockquote p:last-child {
-  margin-bottom: 0;  
+  margin-bottom: 0;
 }
 
 /**
@@ -100,10 +105,10 @@ body {
   max-width:800px;
   margin:25px auto;
 }
-header, #content, footer { 
-  background: rgba(0,0,0,.8); 
+header, #content, footer {
+  background: rgba(0,0,0,.8);
   padding:25px;
-  color:#FFFFFF; 
+  color:#FFFFFF;
 }
 
 /* Menu Links */
@@ -136,6 +141,3 @@ ul.main-menu li a.active {
 .show {
   display:block;
 }
-
-
-
